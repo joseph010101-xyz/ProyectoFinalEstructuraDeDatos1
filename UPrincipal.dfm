@@ -2,14 +2,15 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 541
-  ClientWidth = 777
+  ClientHeight = 569
+  ClientWidth = 760
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   TextHeight = 15
   object GroupBox1: TGroupBox
     Left = 408
@@ -40,16 +41,18 @@ object Form1: TForm1
     Width = 281
     Height = 201
     Caption = 'SALA DE ATENCION'
+    DoubleBuffered = False
     Font.Charset = GB2312_CHARSET
     Font.Color = clWindowText
     Font.Height = -30
     Font.Name = 'STCaiyun'
     Font.Style = []
+    ParentDoubleBuffered = False
     ParentFont = False
     TabOrder = 1
     object Image1: TImage
       Left = 130
-      Top = 49
+      Top = 33
       Width = 71
       Height = 49
       Cursor = crHandPoint
@@ -3757,10 +3760,11 @@ object Form1: TForm1
       Font.Style = [fsBold]
       ParentFont = False
       TabOrder = 0
+      OnClick = Button2Click
     end
     object Button3: TButton
       Left = 3
-      Top = 49
+      Top = 33
       Width = 121
       Height = 49
       Caption = 'Atender'
@@ -3771,6 +3775,18 @@ object Form1: TForm1
       Font.Style = [fsBold]
       ParentFont = False
       TabOrder = 1
+      OnClick = Button3Click
     end
+  end
+  object MediaPlayer2: TMediaPlayer
+    Left = 559
+    Top = 391
+    Width = 253
+    Height = 30
+    DoubleBuffered = True
+    FileName = 'C:\Users\Cristian Olivera C\Downloads\button_09-190435.mp3'
+    Visible = False
+    ParentDoubleBuffered = False
+    TabOrder = 2
   end
 end

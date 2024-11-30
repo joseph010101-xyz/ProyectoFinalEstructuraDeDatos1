@@ -1,4 +1,8 @@
 bindengine280.bpl
+xmlrtl280.bpl
+FireDACCommon280.bpl
+vcldb280.bpl
+vclwinx280.bpl
 bindcompvcl280.bpl
 dbrtl280.bpl
 bindcomp280.bpl
