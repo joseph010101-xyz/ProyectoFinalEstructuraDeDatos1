@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+﻿//---------------------------------------------------------------------------
 
 #include <vcl.h>
 #pragma hdrstop
@@ -19,5 +19,29 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
 	Form2->Close();
 }
 //---------------------------------------------------------------------------
+
+
+void __fastcall TForm2::Image1Click(TObject *Sender)
+{
+Form2->Close();
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button2Click(TObject *Sender)
+{
+HISTORIAL->Lines->Add("ticket" + IntToStr(i));
+	 i++;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button3Click(TObject *Sender)
+{
+Memo2->Lines->Add("ticket" + IntToStr(i));
+	 i++;
+}
+//---------------------------------------------------------------------------
+
+
 
 

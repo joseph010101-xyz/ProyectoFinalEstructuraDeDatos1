@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 415
-  ClientWidth = 795
+  ClientHeight = 388
+  ClientWidth = 777
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -41,14 +41,5 @@ object Form1: TForm1
     Height = 201
     Caption = 'GroupBox2'
     TabOrder = 1
-  end
-  object Memo1: TMemo
-    Left = 208
-    Top = 312
-    Width = 185
-    Height = 89
-    Lines.Strings = (
-      'Memo1')
-    TabOrder = 2
   end
 end
