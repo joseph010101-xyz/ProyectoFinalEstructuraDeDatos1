@@ -1,0 +1,58 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 442
+  ClientWidth = 629
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Button1: TButton
+    Left = 464
+    Top = 345
+    Width = 147
+    Height = 64
+    Caption = 'INICIO'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clLime
+    Font.Height = -37
+    Font.Name = 'STCaiyun'
+    Font.Style = []
+    ImageName = 'DD'
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 96
+    Top = 116
+    Width = 121
+    Height = 57
+    Caption = 'Caja'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -37
+    Font.Name = 'STCaiyun'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 296
+    Top = 116
+    Width = 169
+    Height = 57
+    Caption = 'Plataforma'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -30
+    Font.Name = 'STCaiyun'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+end

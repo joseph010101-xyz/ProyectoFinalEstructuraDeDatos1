@@ -19,3 +19,11 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
 	Form2->Close();
 }
 //---------------------------------------------------------------------------
+
+
+void __fastcall TForm2::Image1Click(TObject *Sender)
+{
+Form2->Close();
+}
+//---------------------------------------------------------------------------
+
