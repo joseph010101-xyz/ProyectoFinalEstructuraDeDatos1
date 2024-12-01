@@ -1,18 +1,19 @@
 object Form1: TForm1
   Left = 0
   Top = 0
+  BorderStyle = bsDialog
   Caption = 'Form1'
-  ClientHeight = 620
-  ClientWidth = 701
+  ClientHeight = 602
+  ClientWidth = 664
   Color = 16580092
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -12
+  Font.Height = -17
   Font.Name = 'Segoe UI'
   Font.Style = []
   Scaled = False
   OnCreate = FormCreate
-  TextHeight = 15
+  TextHeight = 23
   object GroupBox1: TGroupBox
     Left = 342
     Top = 64
@@ -39,7 +40,7 @@ object Form1: TForm1
     end
   end
   object GroupBox2: TGroupBox
-    Left = 32
+    Left = 35
     Top = 56
     Width = 281
     Height = 201
@@ -3796,10 +3797,10 @@ object Form1: TForm1
     TabOrder = 2
   end
   object GroupBox3: TGroupBox
-    Left = 32
-    Top = 312
-    Width = 615
-    Height = 209
+    Left = 38
+    Top = 283
+    Width = 612
+    Height = 241
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -3810,7 +3811,7 @@ object Form1: TForm1
     TabOrder = 3
     object Image3: TImage
       Left = 16
-      Top = 40
+      Top = 48
       Width = 71
       Height = 57
       Cursor = crHandPoint
@@ -6092,7 +6093,7 @@ object Form1: TForm1
     end
     object Image5: TImage
       Left = 16
-      Top = 128
+      Top = 136
       Width = 71
       Height = 65
       Cursor = crHandPoint
@@ -7544,7 +7545,7 @@ object Form1: TForm1
     end
     object SGVec: TStringGrid
       Left = 112
-      Top = 58
+      Top = 62
       Width = 417
       Height = 41
       ColCount = 1
@@ -7570,10 +7571,48 @@ object Form1: TForm1
       ScrollBars = ssHorizontal
       TabOrder = 1
     end
+    object LimpiarCaja: TButton
+      Left = 536
+      Top = 70
+      Width = 57
+      Height = 31
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
+      Caption = 'Limpiar'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = LimpiarCajaClick
+    end
+    object LimpiarPlataforma: TButton
+      Left = 536
+      Top = 159
+      Width = 57
+      Height = 31
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
+      Caption = 'Limpiar'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      OnClick = LimpiarPlataformaClick
+    end
   end
   object Button4: TButton
-    Left = 505
-    Top = 533
+    Left = 513
+    Top = 551
     Width = 94
     Height = 31
     Margins.Left = 4
@@ -7581,7 +7620,38 @@ object Form1: TForm1
     Margins.Right = 4
     Margins.Bottom = 4
     Caption = 'Mas informacion'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 4
     OnClick = Button4Click
+  end
+  object Salir: TButton
+    Left = 35
+    Top = 552
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Salir'
+    TabOrder = 5
+    OnClick = SalirClick
+  end
+  object Button6: TButton
+    Left = 1090
+    Top = 310
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Button6'
+    TabOrder = 6
   end
 end

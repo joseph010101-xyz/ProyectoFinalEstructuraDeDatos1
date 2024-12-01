@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+﻿//---------------------------------------------------------------------------
 
 #ifndef UPrincipalH
 #define UPrincipalH
@@ -36,11 +36,18 @@ __published:	// IDE-managed Components
 	TLabel *Label1;
 	TLabel *Label2;
 	TButton *Button4;
+	TButton *Salir;
+	TButton *LimpiarCaja;
+	TButton *Button6;
+	TButton *LimpiarPlataforma;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button4Click(TObject *Sender);
+	void __fastcall SalirClick(TObject *Sender);
+	void __fastcall LimpiarCajaClick(TObject *Sender);
+	void __fastcall LimpiarPlataformaClick(TObject *Sender);
 
 
 
