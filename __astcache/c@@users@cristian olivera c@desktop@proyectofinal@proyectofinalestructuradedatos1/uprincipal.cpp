@@ -6,6 +6,7 @@
 #include "UPrincipal.h"
 #include "UPrincipal2.h"
 #include "UPrincipal3.h"
+#include "UPrincipal5.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -53,7 +54,9 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 
 void __fastcall TForm1::Button4Click(TObject *Sender)
 {
-  //Form4->Show();
+  Form5->ShowModal();
+  MediaPlayer2->Open();
+  MediaPlayer2->Play();
 }
 //---------------------------------------------------------------------------
 

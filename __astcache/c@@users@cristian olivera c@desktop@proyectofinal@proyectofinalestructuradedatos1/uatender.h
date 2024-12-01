@@ -13,10 +13,6 @@
 class TForm4 : public TForm
 {
 __published:	// IDE-managed Components
-	TImage *Image1;
-	TMemo *Memo1;
-	TLabel *Label1;
-	TButton *Button1;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm4(TComponent* Owner);
