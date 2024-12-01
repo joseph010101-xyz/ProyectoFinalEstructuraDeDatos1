@@ -1485,7 +1485,7 @@ object Form5: TForm5
       '   /'
       ''
       'NOMBRE: Joseph Flores '
-      'Garcia'
+      'Garcia  el mas muto de los mutos'
       'FECHA NACIMIENTO: / /'
       ''
       'NOMBRE: Cristian Olivera '
