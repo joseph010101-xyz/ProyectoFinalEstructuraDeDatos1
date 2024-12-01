@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 600
-  ClientWidth = 717
+  ClientHeight = 620
+  ClientWidth = 701
   Color = 16580092
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -7570,5 +7570,18 @@ object Form1: TForm1
       ScrollBars = ssHorizontal
       TabOrder = 1
     end
+  end
+  object Button4: TButton
+    Left = 505
+    Top = 533
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Mas informacion'
+    TabOrder = 4
+    OnClick = Button4Click
   end
 end
