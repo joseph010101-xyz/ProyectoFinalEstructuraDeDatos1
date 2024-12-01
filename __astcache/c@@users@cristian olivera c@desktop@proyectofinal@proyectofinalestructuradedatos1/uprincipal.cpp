@@ -24,8 +24,9 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::FormCreate(TObject *Sender)
-{  //MediaPlayer2->Open();
-   //MediaPlayer2->Play();
+{
+ MediaPlayer2->Open();
+   MediaPlayer2->Play();
 
 }
 //---------------------------------------------------------------------------
@@ -46,5 +47,9 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
    MediaPlayer2->Play();
 }
 //---------------------------------------------------------------------------
+
+
+
+
 
 

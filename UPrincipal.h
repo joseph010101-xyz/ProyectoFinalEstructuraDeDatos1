@@ -15,6 +15,7 @@
 #include <Vcl.Bind.DBEngExt.hpp>
 #include <Vcl.Buttons.hpp>
 #include <Vcl.MPlayer.hpp>
+#include <Vcl.Grids.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -27,6 +28,13 @@ __published:	// IDE-managed Components
 	TImage *Image1;
 	TImage *Image2;
 	TMediaPlayer *MediaPlayer2;
+	TGroupBox *GroupBox3;
+	TStringGrid *SGVec;
+	TStringGrid *StringGrid1;
+	TImage *Image3;
+	TImage *Image5;
+	TLabel *Label1;
+	TLabel *Label2;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
