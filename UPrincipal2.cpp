@@ -60,3 +60,4 @@ void __fastcall TForm2::prenderClick(TObject *Sender)
 
 
 
+

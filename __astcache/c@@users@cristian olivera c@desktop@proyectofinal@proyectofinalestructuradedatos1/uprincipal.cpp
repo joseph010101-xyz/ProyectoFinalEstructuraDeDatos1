@@ -1,4 +1,4 @@
-﻿//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
 
 #include <vcl.h>
 #pragma hdrstop
@@ -68,22 +68,29 @@ exit(0);
 
 void __fastcall TForm1::LimpiarCajaClick(TObject *Sender)
 {
-   for (int i = 0; i < SGVec->RowCount; i++){        // se encarga de limpiar
-	   for (int j = 0; j < SGVec->ColCount; j++){
-		SGVec->Cells[j][i] = "";
+for (int i = 0; i < SGVec->RowCount; i++)     //limpia caja
+	{
+		for (int j = 0; j < SGVec->ColCount; j++)
+		{
+			SGVec->Cells[j][i] = "";
 		}
 	}
+
+
 }
 //---------------------------------------------------------------------------
 
 
 void __fastcall TForm1::LimpiarPlataformaClick(TObject *Sender)
 {
-   for (int i = 0; i < StringGrid1->RowCount; i++){   //se encarga se limpiar
-	   for (int j = 0; j < StringGrid1->ColCount; j++){
-		StringGrid1->Cells[j][i] = "";
+for (int i = 0; i < StringGrid1->RowCount; i++)    //limpia plataforma
+	{
+		for (int j = 0; j < StringGrid1->ColCount; j++)
+		{
+			StringGrid1->Cells[j][i] = "";
 		}
 	}
 }
 //---------------------------------------------------------------------------
+
 
