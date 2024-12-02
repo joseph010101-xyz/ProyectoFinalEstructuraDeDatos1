@@ -15,6 +15,10 @@
 #include <Vcl.Bind.DBEngExt.hpp>
 #include <Vcl.Buttons.hpp>
 #include <Vcl.MPlayer.hpp>
+#include <Vcl.Grids.hpp>
+#include <Vcl.BaseImageCollection.hpp>
+#include <Vcl.ImageCollection.hpp>
+#include <Vcl.Graphics.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -26,8 +30,27 @@ __published:	// IDE-managed Components
 	TButton *Button3;
 	TImage *Image1;
 	TImage *Image2;
+	TMediaPlayer *MediaPlayer2;
+	TGroupBox *GroupBox3;
+	TStringGrid *SGVec;
+	TStringGrid *StringGrid1;
+	TImage *Image3;
+	TImage *Image5;
+	TLabel *Label1;
+	TLabel *Label2;
+	TButton *Button4;
+	TButton *Salir;
+	TButton *LimpiarCaja;
+	TButton *LimpiarPlataforma;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall Button3Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall Button4Click(TObject *Sender);
+	void __fastcall SalirClick(TObject *Sender);
+	void __fastcall LimpiarCajaClick(TObject *Sender);
+	void __fastcall LimpiarPlataformaClick(TObject *Sender);
+
 
 
 
@@ -36,6 +59,7 @@ private:	// User declarations
 
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
+
 	int i=100;
 };
 //---------------------------------------------------------------------------
