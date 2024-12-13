@@ -31,7 +31,6 @@ __published:	// IDE-managed Components
 	TButton *historial;
 	TToggleSwitch *prender;
 	TMediaPlayer *MediaPlayer3;
-	TTrayIcon *TrayIcon1;
 	void __fastcall Image1Click(TObject *Sender);
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);

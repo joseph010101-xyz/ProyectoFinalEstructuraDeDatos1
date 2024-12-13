@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+﻿//---------------------------------------------------------------------------
 
 #include <vcl.h>
 #pragma hdrstop
@@ -93,4 +93,28 @@ for (int i = 0; i < StringGrid1->RowCount; i++)    //limpia plataforma
 }
 //---------------------------------------------------------------------------
 
+
+void __fastcall TForm1::Label3Click(TObject *Sender)
+{
+	 Form2->ShowModal();
+	 MediaPlayer2->Open();
+	 MediaPlayer2->Play();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label4Click(TObject *Sender)
+{
+   MediaPlayer2->Open();
+   MediaPlayer2->Play();
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm1::Label1Click(TObject *Sender)
+{
+   MediaPlayer2->Open();
+   MediaPlayer2->Play();
+}
+//---------------------------------------------------------------------------
 

@@ -23,26 +23,27 @@
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
-	TGroupBox *GroupBox1;
-	TGroupBox *GroupBox2;
-	TButton *Button1;
-	TButton *Button2;
-	TButton *Button3;
+	TMediaPlayer *MediaPlayer2;
+	TButton *Button4;
+	TButton *Salir;
+	TImage *Image4;
+	TLabel *Label3;
+	TLabel *Label4;
 	TImage *Image1;
 	TImage *Image2;
-	TMediaPlayer *MediaPlayer2;
-	TGroupBox *GroupBox3;
 	TStringGrid *SGVec;
 	TStringGrid *StringGrid1;
+	TButton *LimpiarCaja;
+	TButton *LimpiarPlataforma;
 	TImage *Image3;
 	TImage *Image5;
 	TLabel *Label1;
+	TImage *Image6;
+	TRadioButton *RadioButton1;
+	TRadioButton *RadioButton2;
+	TRadioButton *RadioButton3;
 	TLabel *Label2;
-	TButton *Button4;
-	TButton *Salir;
-	TButton *LimpiarCaja;
-	TButton *LimpiarPlataforma;
-	TImage *Image4;
+	TRadioButton *RadioButton4;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
@@ -51,6 +52,9 @@ __published:	// IDE-managed Components
 	void __fastcall SalirClick(TObject *Sender);
 	void __fastcall LimpiarCajaClick(TObject *Sender);
 	void __fastcall LimpiarPlataformaClick(TObject *Sender);
+	void __fastcall Label3Click(TObject *Sender);
+	void __fastcall Label4Click(TObject *Sender);
+	void __fastcall Label1Click(TObject *Sender);
 
 
 

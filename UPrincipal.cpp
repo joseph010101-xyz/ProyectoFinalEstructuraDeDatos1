@@ -94,3 +94,49 @@ for (int i = 0; i < StringGrid1->RowCount; i++)    //limpia plataforma
 //---------------------------------------------------------------------------
 
 
+void __fastcall TForm1::Label3Click(TObject *Sender)
+{
+
+	 MediaPlayer2->Open();
+	 MediaPlayer2->Play();
+	 //PIORIDAD
+	 if (RadioButton1->Checked){
+	 Form2->ShowModal();
+	  ShowMessage("Opción 1 discapacidad");
+	  }else
+
+		if (RadioButton2->Checked) {
+		Form2->ShowModal();
+	   ShowMessage("Opción 2 embarazada");
+	   } else
+
+		if (RadioButton3->Checked) {
+		Form2->ShowModal();
+	   ShowMessage("Opción 3 embarazada");
+	   } else
+
+		if (RadioButton4->Checked) {
+		Form2->ShowModal();
+	  } else { ShowMessage("ESCOJA UNA OPCION");
+	  }
+	 //----------------------------------
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label4Click(TObject *Sender)
+{
+   MediaPlayer2->Open();
+   MediaPlayer2->Play();
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm1::Label1Click(TObject *Sender)
+{
+   MediaPlayer2->Open();
+   MediaPlayer2->Play();
+}
+//---------------------------------------------------------------------------
+
