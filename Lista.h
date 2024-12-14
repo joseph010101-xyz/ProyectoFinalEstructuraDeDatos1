@@ -1,10 +1,9 @@
 //---------------------------------------------------------------------------
-
 #ifndef ListaH
 #define ListaH
+#include <cstddef>
+#include "Nodo.h"
 //---------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
 class lista {
 	private:
 		nodo* cabeza;  // direccion al primer nodo
@@ -41,5 +40,4 @@ class lista {
 		//void 	ordenar(int o); // o=0 ascendente; o=1 descendente
 		//void	intercambiar(float  x, float y): intercambia el dato x con el dato y.
 };
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
 #endif

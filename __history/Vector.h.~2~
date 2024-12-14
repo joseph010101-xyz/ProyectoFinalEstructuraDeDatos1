@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------
 
-#pragma hdrstop
-
-#include "Nodo.h"
+#ifndef VectorH
+#define VectorH
 //---------------------------------------------------------------------------
-#pragma package(smart_init)
+//soy cristian
+#endif

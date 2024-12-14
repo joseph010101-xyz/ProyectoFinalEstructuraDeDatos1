@@ -1,12 +1,9 @@
 //---------------------------------------------------------------------------
-
 #pragma hdrstop
-
 #include "Lista.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
-<<<<<<< HEAD
-=======
+#include "nodo.h"
 lista::lista(){
 		cabeza=NULL;
 		numNodos = 0;
@@ -207,4 +204,3 @@ float lista::eliminarFinal() {
 		}
 		return NULL;
 }
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216

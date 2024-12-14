@@ -2,23 +2,17 @@
 
 #ifndef NodoH
 #define NodoH
+#include <cstddef>
 //---------------------------------------------------------------------------
-<<<<<<< HEAD
-class Nodo{
-
-}
-#endif
-=======
-class nodo{
+class nodo {
 	public:
-		nodo* enlaceIzq;
-		nodo* enlaceDer;
-		char dato;
-
-		nodo();
-		nodo(char v);
+		float  dato;     // campo de dato
+		nodo*  enlace;  // campo de direccion al siguiente nodo
+		//constructor
+		nodo() {
+				dato = 0;
+				enlace = NULL; // NULL es un simbolo que vale 0
+				}
 };
 
 #endif
-
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216

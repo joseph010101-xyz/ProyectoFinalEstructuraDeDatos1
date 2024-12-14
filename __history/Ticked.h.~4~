@@ -1,7 +1,9 @@
 //---------------------------------------------------------------------------
 
-#pragma hdrstop
-
-#include "Nodo.h"
+#ifndef TickedH
+#define TickedH
 //---------------------------------------------------------------------------
-#pragma package(smart_init)
+class Ticked{
+
+};
+#endif
