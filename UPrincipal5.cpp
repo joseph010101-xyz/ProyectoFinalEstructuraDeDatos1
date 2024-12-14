@@ -16,6 +16,6 @@ __fastcall TForm5::TForm5(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm5::Button1Click(TObject *Sender)
 {
-Form5->Close();
+Form5->Close();// cierra formulario
 }
 //---------------------------------------------------------------------------

@@ -22,20 +22,21 @@
 class TForm2 : public TForm
 {
 __published:	// IDE-managed Components
-	TImage *Image1;
-	TGroupBox *GroupBox1;
-	TButton *Button4;
-	TButton *Button2;
+	TMediaPlayer *MediaPlayer3;
+	TImage *Image4;
+	TToggleSwitch *prender;
 	TMemo *HISTORIAL1;
 	TMemo *HISTORIAL2;
 	TButton *historial;
-	TToggleSwitch *prender;
-	TMediaPlayer *MediaPlayer3;
-	TTrayIcon *TrayIcon1;
-	void __fastcall Image1Click(TObject *Sender);
+	TButton *Button4;
+	TButton *Button2;
+	TImage *Image2;
+	TImage *Image3;
+	TImage *Image5;
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
 	void __fastcall prenderClick(TObject *Sender);
+	void __fastcall Image5Click(TObject *Sender);
 
 
 private:	// User declarations

@@ -39,6 +39,11 @@ __published:	// IDE-managed Components
 	TImage *Image5;
 	TLabel *Label1;
 	TImage *Image6;
+	TRadioButton *RadioButton1;
+	TRadioButton *RadioButton2;
+	TRadioButton *RadioButton3;
+	TLabel *Label2;
+	TRadioButton *RadioButton4;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);

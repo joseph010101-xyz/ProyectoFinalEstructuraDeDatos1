@@ -2,8 +2,8 @@ object Form5: TForm5
   Left = 0
   Top = 0
   Caption = 'Integrantes'
-  ClientHeight = 324
-  ClientWidth = 562
+  ClientHeight = 315
+  ClientWidth = 545
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -2127,8 +2127,8 @@ object Form5: TForm5
     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
   TextHeight = 15
   object Image1: TImage
-    Left = 4
-    Top = 8
+    Left = -4
+    Top = 3
     Width = 550
     Height = 313
     ParentShowHint = False
@@ -8619,8 +8619,8 @@ object Form5: TForm5
     Stretch = True
   end
   object Label1: TLabel
-    Left = 299
-    Top = 74
+    Left = 291
+    Top = 69
     Width = 113
     Height = 15
     Caption = '>Joseph Flores Garcia'
@@ -8633,8 +8633,8 @@ object Form5: TForm5
     WordWrap = True
   end
   object Label2: TLabel
-    Left = 299
-    Top = 56
+    Left = 291
+    Top = 51
     Width = 164
     Height = 15
     Caption = '>Lucas Eduardo David Choque'
@@ -8646,8 +8646,8 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 299
-    Top = 92
+    Left = 291
+    Top = 87
     Width = 134
     Height = 15
     Caption = '>Cristian Olivera Condori'
@@ -8660,8 +8660,8 @@ object Form5: TForm5
     WordWrap = True
   end
   object Label4: TLabel
-    Left = 335
-    Top = 30
+    Left = 327
+    Top = 25
     Width = 87
     Height = 17
     Caption = 'INTEGRANTES'
@@ -8674,10 +8674,10 @@ object Form5: TForm5
     WordWrap = True
   end
   object Label5: TLabel
-    Left = 299
-    Top = 286
+    Left = 291
+    Top = 281
     Width = 71
-    Height = 21
+    Height = 15
     Caption = 'Proyecto final'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -8687,8 +8687,8 @@ object Form5: TForm5
     ParentFont = False
   end
   object Memo1: TMemo
-    Left = 299
-    Top = 127
+    Left = 291
+    Top = 122
     Width = 182
     Height = 129
     Font.Charset = DEFAULT_CHARSET
@@ -8716,8 +8716,8 @@ object Form5: TForm5
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 388
-    Top = 282
+    Left = 380
+    Top = 277
     Width = 75
     Height = 25
     Caption = 'Aceptar'
