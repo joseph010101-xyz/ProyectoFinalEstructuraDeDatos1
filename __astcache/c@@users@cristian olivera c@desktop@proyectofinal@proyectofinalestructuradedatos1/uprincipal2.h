@@ -22,6 +22,7 @@
 class TForm2 : public TForm
 {
 __published:	// IDE-managed Components
+<<<<<<< HEAD
 	TMediaPlayer *MediaPlayer3;
 	TImage *Image4;
 	TToggleSwitch *prender;
@@ -37,6 +38,22 @@ __published:	// IDE-managed Components
 	void __fastcall Button3Click(TObject *Sender);
 	void __fastcall prenderClick(TObject *Sender);
 	void __fastcall Image5Click(TObject *Sender);
+=======
+	TImage *Image1;
+	TGroupBox *GroupBox1;
+	TButton *Button4;
+	TButton *Button2;
+	TMemo *HISTORIAL1;
+	TMemo *HISTORIAL2;
+	TButton *historial;
+	TToggleSwitch *prender;
+	TMediaPlayer *MediaPlayer3;
+	TTrayIcon *TrayIcon1;
+	void __fastcall Image1Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall Button3Click(TObject *Sender);
+	void __fastcall prenderClick(TObject *Sender);
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
 
 
 private:	// User declarations

@@ -2,8 +2,13 @@ object Form5: TForm5
   Left = 0
   Top = 0
   Caption = 'Integrantes'
+<<<<<<< HEAD
   ClientHeight = 315
   ClientWidth = 545
+=======
+  ClientHeight = 324
+  ClientWidth = 562
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -2127,8 +2132,13 @@ object Form5: TForm5
     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
   TextHeight = 15
   object Image1: TImage
+<<<<<<< HEAD
     Left = -4
     Top = 3
+=======
+    Left = 4
+    Top = 8
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 550
     Height = 313
     ParentShowHint = False
@@ -8619,8 +8629,13 @@ object Form5: TForm5
     Stretch = True
   end
   object Label1: TLabel
+<<<<<<< HEAD
     Left = 291
     Top = 69
+=======
+    Left = 299
+    Top = 74
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 113
     Height = 15
     Caption = '>Joseph Flores Garcia'
@@ -8633,8 +8648,13 @@ object Form5: TForm5
     WordWrap = True
   end
   object Label2: TLabel
+<<<<<<< HEAD
     Left = 291
     Top = 51
+=======
+    Left = 299
+    Top = 56
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 164
     Height = 15
     Caption = '>Lucas Eduardo David Choque'
@@ -8646,8 +8666,13 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label3: TLabel
+<<<<<<< HEAD
     Left = 291
     Top = 87
+=======
+    Left = 299
+    Top = 92
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 134
     Height = 15
     Caption = '>Cristian Olivera Condori'
@@ -8660,8 +8685,13 @@ object Form5: TForm5
     WordWrap = True
   end
   object Label4: TLabel
+<<<<<<< HEAD
     Left = 327
     Top = 25
+=======
+    Left = 335
+    Top = 30
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 87
     Height = 17
     Caption = 'INTEGRANTES'
@@ -8674,10 +8704,17 @@ object Form5: TForm5
     WordWrap = True
   end
   object Label5: TLabel
+<<<<<<< HEAD
     Left = 291
     Top = 281
     Width = 71
     Height = 15
+=======
+    Left = 299
+    Top = 286
+    Width = 71
+    Height = 21
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Caption = 'Proyecto final'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -8687,8 +8724,13 @@ object Form5: TForm5
     ParentFont = False
   end
   object Memo1: TMemo
+<<<<<<< HEAD
     Left = 291
     Top = 122
+=======
+    Left = 299
+    Top = 127
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 182
     Height = 129
     Font.Charset = DEFAULT_CHARSET
@@ -8716,8 +8758,13 @@ object Form5: TForm5
     TabOrder = 0
   end
   object Button1: TButton
+<<<<<<< HEAD
     Left = 380
     Top = 277
+=======
+    Left = 388
+    Top = 282
+>>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Width = 75
     Height = 25
     Caption = 'Aceptar'
