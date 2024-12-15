@@ -1,18 +1,11 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-<<<<<<< HEAD
   Cursor = crHandPoint
   BorderStyle = bsDialog
   Caption = 'Form1'
   ClientHeight = 605
   ClientWidth = 875
-=======
-  BorderStyle = bsDialog
-  Caption = 'Form1'
-  ClientHeight = 660
-  ClientWidth = 887
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
   Color = 197634
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -2134,12 +2127,6 @@ object Form1: TForm1
     FFFFFFFFFFFFFFFE82417FFFFFFFFFFFFFFFFFFFFFFFFFFFE007FFFFFFFFFFFF
     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-<<<<<<< HEAD
-=======
-  KeyPreview = True
-  Scaled = False
-  ShowHint = False
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
   OnCreate = FormCreate
   TextHeight = 20
   object Image4: TImage
@@ -2147,11 +2134,7 @@ object Form1: TForm1
     Top = 0
     Width = 887
     Height = 601
-<<<<<<< HEAD
     Cursor = crArrow
-=======
-    Cursor = crHandPoint
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     ParentShowHint = False
     Picture.Data = {
       0A544A504547496D616765711F0100FFD8FFE100BC45786966000049492A0008
@@ -4462,10 +4445,7 @@ object Form1: TForm1
     Top = 203
     Width = 103
     Height = 24
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -4486,10 +4466,7 @@ object Form1: TForm1
     Top = 163
     Width = 140
     Height = 35
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -11904,10 +11881,7 @@ object Form1: TForm1
     Top = 256
     Width = 140
     Height = 35
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12109,10 +12083,7 @@ object Form1: TForm1
     Top = 562
     Width = 94
     Height = 31
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12132,10 +12103,7 @@ object Form1: TForm1
     Top = 560
     Width = 94
     Height = 31
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12177,10 +12145,7 @@ object Form1: TForm1
     Top = 395
     Width = 57
     Height = 31
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12200,10 +12165,7 @@ object Form1: TForm1
     Top = 482
     Width = 57
     Height = 31
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12223,10 +12185,7 @@ object Form1: TForm1
     Top = 162
     Width = 141
     Height = 21
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12247,19 +12206,12 @@ object Form1: TForm1
     Top = 191
     Width = 141
     Height = 21
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
     Margins.Bottom = 4
-<<<<<<< HEAD
     Caption = 'EMBARAZADA'
-=======
-    Caption = 'AMBARAZADA'
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Color = clWhite
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWhite
@@ -12275,10 +12227,7 @@ object Form1: TForm1
     Top = 220
     Width = 141
     Height = 21
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -12299,10 +12248,7 @@ object Form1: TForm1
     Top = 249
     Width = 141
     Height = 21
-<<<<<<< HEAD
     Cursor = crHandPoint
-=======
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4

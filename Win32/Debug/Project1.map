@@ -1,12 +1,6 @@
 
  Start Length Name Class
-<<<<<<< HEAD
  0001:00401000 00000E994H _TEXT                  CODE
  0002:00410000 000000C98H _DATA                  DATA
  0003:00410C98 000000330H _BSS                   BSS
-=======
- 0001:00401000 00000E508H _TEXT                  CODE
- 0002:00410000 000000C88H _DATA                  DATA
- 0003:00410C88 000000300H _BSS                   BSS
->>>>>>> bb1a6e82f22b3e3aa6b4a0a294b17c22f5b45216
  0004:00000000 000000000H _TLS                   TLS
